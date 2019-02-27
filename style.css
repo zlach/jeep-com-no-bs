@@ -88,7 +88,8 @@ body{
 }
 
 .vehicles-container img{
-	height: 20vw;
+	height: 19vw;
+	margin: auto;
 }
 
 .vehicles-header{
@@ -99,6 +100,92 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 30px;
 }
+
+.vehicles-info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.vehicles-name{
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	max-width: 35vw;
+}
+
+.vehicles-msrp{
+	color: #636363;
+	font-size: .5em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.vehicles-price{
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	max-width: 35vw;
+	font-size: .9em;
+}
+
+.promo-container{
+	background-color: #d1d1d1;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.promo-item img{
+	width: 90vw;
+}
+
+.promo-black{
+	height: 27vw;
+	width: 90vw;
+	position: relative;
+	top: -25px;
+	background-color: black;
+	color: white;
+	font-size: .9em;
+}
+
+.promo-black-bold{
+	font-weight: 700;
+}
+
+.promo-gray{
+	background-color: #212121;
+	width: 90vw;
+	height: 8vw;
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	
+	.promo-gray .fas{
+		color: #ffba00;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+
+.promo-gray-bold{
+	font-weight: 700px;
+	font-size: .8em;
+}
+
+.promo-text{
+	padding: 15px 20px;
+}
+
+
+
+
 
 
