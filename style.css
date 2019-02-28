@@ -251,7 +251,7 @@ body{
 
 .search-section{
 	background-color: #212121;
-	height: 70vw;
+	height: 275px;
 }
 
 .search-container{
@@ -304,4 +304,80 @@ body{
 .search-bar .fas{
 	color: black;
 	margin-left: 10px;
+}
+
+.bottom-menu{
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottom-menu-item{
+	border-bottom: 1px solid white;
+	width: 90vw;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.socials{
+	display: flex;
+	flex-direction: column;
+}
+
+.social-group{
+	display: flex;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+}
+
+.social-group i{
+	font-size: 2.1em;
+	letter-spacing: .2em;
+}
+
+.social-group img{
+	height: 20px;
+}
+
+.social-group div{
+	flex: 1;
+	padding-left: 5vw;
+}
+
+.thing{
+	border-bottom: 1px solid #333333;
+	width: 90vw;
+	margin: 10px auto 50px auto;
+}
+
+.foot-car-bar{
+	color: #bfbfbf;
+	font-size: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0px;
+}
+
+.foot-car-bar div{
+	padding-right: .71429rem;
+    padding-left: 5vw;
+    line-height: 25px;
+}
+
+.foot-p{
+	color: #bfbfbf;
+	font-size: 10px;
+	width: 90vw;
+	margin: 10px auto 10px auto;
+}
+
+.foot{
+	margin-bottom: 60px;
 }
