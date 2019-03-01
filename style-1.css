@@ -1,0 +1,147 @@
+body{
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.navbar-container{
+	display: flex;
+	justify-content: space-between;
+	height: 45px;
+	align-items: center;
+	background-color: pink;
+}
+
+.jeep-logo{
+	height: 25px;
+	padding-left: 15px;
+}
+
+.navitem{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+	padding-right: 15px;
+}
+	.navitem-tools{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 48px;
+		padding-right: 15px;
+	}
+	.navitem-capability{
+		display: none;
+	}
+
+.carousel-container{
+	background-image: url("carousel-jeep.jpg");
+	background-size: cover;
+	width: 100vw;
+	height: 120vw;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+	.carousel-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.far{
+		font-size: .5em;
+	}
+	.carousel-container .white-text{
+		text-align: center;
+		width: 80vw;
+		line-height: 22px;
+		font-size: 1em;
+	}
+	.carousel-container .fine-print{
+		font-size: .7em;
+		line-height: 40px;
+	}
+	.carousel-container .motortrend{
+		height: 120px;
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	.dots div{
+		height: 12px;
+		width: 12px;
+		border-radius: 50%;
+		display: inline-block;
+		border: 2px solid #bfbfbf;
+	}
+	.yellow-dot{
+		background-color: #ffba00;
+	}
+
+.button{
+	background-color: #ffba00;
+	color: black;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 14px 25px;
+	font-size: 14px;
+	font-weight: 700;
+	display: inline-block;
+	box-shadow: 0px 0px 1px black;
+}
+
+.vehicles-container{
+	width: 100vw;
+	height: 450px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.vehicles-container img{
+	height: 14vw;
+	margin: auto;
+}
+
+.vehicles-header{
+	font-weight: 700;
+	font-size: 1.2em;
+	color: black;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.vehicles-info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.vehicles-name{
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	max-width: 35vw;
+}
+
+.vehicles-msrp{
+	color: #636363;
+	font-size: .5em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.vehicles-price{
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	max-width: 35vw;
+	font-size: .9em;
+}

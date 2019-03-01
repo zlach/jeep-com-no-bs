@@ -1,0 +1,107 @@
+body{
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.navbar-container{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	align-items: center;
+	background-color: #badbad;
+}
+
+.jeep-logo{
+	height: 35px;
+	padding-left: 15px;
+}
+
+.navitem{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+	padding-right: 15px;
+}
+	.navitem-tools{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 48px;
+		padding-right: 15px;
+	}
+	.navitem-capability{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 48px;
+		padding-right: 15px;
+	}
+	.navitem-menu{
+		display: none;
+	}
+
+.carousel-container{
+	background-image: url("carousel-jeep-wide.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 38vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+	.carousel-content{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 40vw;
+		padding-top: 9vw;
+		padding-left: 6vw;
+	}
+	.far{
+		font-size: .5em;
+	}
+	.carousel-container .white-text{
+		line-height: 30px;
+		font-size: 1.3em;
+	}
+	.carousel-container .fine-print{
+		font-size: .9em;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	.motortrend{
+		height: 9vw;
+		margin-bottom: 10px;
+	}
+
+.dots{
+	align-self: center;
+}
+
+.dots div{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 2px solid #bfbfbf;
+}
+.yellow-dot{
+	background-color: #ffba00;
+}
+
+.button{
+	background-color: #ffba00;
+	color: black;
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 1vw 2vw;
+	font-size: 1vw;
+	font-weight: 700;
+	display: inline-block;
+	box-shadow: 0px 0px 1px black;
+}

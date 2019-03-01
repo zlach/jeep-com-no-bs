@@ -9,7 +9,7 @@ body{
 .navbar-container{
 	display: flex;
 	justify-content: space-between;
-	height: 48px;
+	height: 45px;
 	align-items: center;
 }
 
@@ -25,6 +25,12 @@ body{
 	line-height: 48px;
 	padding-right: 15px;
 }
+	.navitem-tools{
+		display: none;
+	}
+	.navitem-capability{
+		display: none;
+	}
 
 .carousel-container{
 	background-image: url("carousel-jeep.jpg");
@@ -45,16 +51,17 @@ body{
 		font-size: .5em;
 	}
 	.carousel-container .white-text{
+		text-align: center;
 		width: 80vw;
 		line-height: 22px;
-		text-align: center;
+		font-size: 1em;
 	}
 	.carousel-container .fine-print{
 		font-size: .5em;
 		line-height: 40px;
 	}
 	.carousel-container .motortrend{
-		height: 16vw;
+		height: 65px;
 		margin-top: 30px;
 		margin-bottom: 15px;
 	}
@@ -62,9 +69,11 @@ body{
 		height: 12px;
 		width: 12px;
 		border-radius: 50%;
-		background-color: #ffba00;
 		display: inline-block;
 		border: 2px solid #bfbfbf;
+	}
+	.yellow-dot{
+		background-color: #ffba00;
 	}
 
 .button{
@@ -76,6 +85,7 @@ body{
 	font-size: 14px;
 	font-weight: 700;
 	display: inline-block;
+	box-shadow: 0px 0px 1px black;
 }
 
 .vehicles-container{
