@@ -9,15 +9,12 @@ body{
 .big-daddy-nav{
 	display: flex;
 	justify-content: space-between;
-	background-color: #badddd;
 }
 
 .navbar-container{
 	display: flex;
-	/*justify-content: space-between;*/
 	height: 70px;
 	align-items: center;
-	background-color: #badbad;
 }
 
 .jeep-logo{
@@ -165,5 +162,65 @@ body{
 	font-size: 1vw;
 	font-weight: 700;
 	display: inline-block;
-	box-shadow: 0px 0px 1px black;
+}
+
+.vehicles-white{
+	width: 100vw;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+.vehicles-container{
+	width: 95vw;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.vehicles-container img{
+	height: 7.1vw;
+	margin: auto;
+}
+
+.vehicles-header{
+	font-weight: 700;
+	font-size: 1.7em;
+	color: #333333;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.vehicles-info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.vehicles-name{
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	max-width: 17vw;
+}
+
+.vehicles-msrp{
+	color: #636363;
+	font-size: .5em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.vehicles-price{
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	max-width: 35vw;
+	font-size: .9em;
 }

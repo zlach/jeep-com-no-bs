@@ -6,12 +6,15 @@ body{
 	color: white;
 }
 
+.right-navbar-container{
+	display: none;
+}
+
 .navbar-container{
 	display: flex;
 	justify-content: space-between;
 	height: 45px;
 	align-items: center;
-	background-color: pink;
 }
 
 .jeep-logo{
@@ -108,7 +111,6 @@ body{
 	font-size: 14px;
 	font-weight: 700;
 	display: inline-block;
-	box-shadow: 0px 0px 1px black;
 }
 
 .vehicles-white{
@@ -135,8 +137,8 @@ body{
 
 .vehicles-header{
 	font-weight: 700;
-	font-size: 1.2em;
-	color: black;
+	font-size: 1.3em;
+	color: #333333;
 	width: 100vw;
 	display: flex;
 	align-items: center;
@@ -171,4 +173,126 @@ body{
 	text-align: center;
 	max-width: 35vw;
 	font-size: .9em;
+}
+
+.promo-container{
+	background-color: #d1d1d1;
+	width: 100vw;
+}
+
+.compass-promo-image{
+	height: 30vw;
+	background-image: url("compass-promo.jpg");
+	background-position: -10%;
+	background-size: cover;
+}
+
+.grandcherokee-promo-image{
+	height: 30vw;
+	background-image: url("grandcherokee-promo.jpg");
+	background-position: -10%;
+	background-size: cover;
+}
+
+.cherokee-promo-image{
+	height: 30vw;
+	background-image: url("cherokee-promo.jpg");
+	background-position: -10%;
+	background-size: cover;
+}
+
+.promo-item{
+	padding: 20px 20px 0px 20px;
+}
+
+.promo-one{
+	padding-bottom: 20px;
+}
+
+.promo-black{
+	width: 100%;
+	background-color: black;
+	position: relative;
+	color: white;
+	font-size: .9em;
+}
+
+.promo-white-bold{
+	font-weight: 700;
+}
+
+.promo-gray{
+	background-color: #212121;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	
+	.promo-gray .fas{
+		color: #ffba00;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+
+.promo-gray-bold{
+	font-weight: 700px;
+	font-size: .8em;
+}
+
+.promo-text{
+	padding: 18px 25px;
+	line-height: 20px;
+}
+
+.random-gray{
+	background-color: #e7e7e7;
+	height: 138px;
+	padding: 0px 0px 0px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+	.random-gray div{
+		font-size: .75em;
+		font-weight: 700;
+		color: black;
+		width: 186px;
+		margin-bottom: 15px;
+	}
+
+.kelley{
+	background-color: #d1d1d1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+	.kelley img{
+		width: 150px;
+		margin-top: 30px;
+	}
+
+.kelley-big{
+	font-size: 1.6em;
+	font-weight: 700;
+	color: #333333;
+	width: 90vw;
+}
+
+.kelley-text{
+	font-size: .9em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 85vw;
+	line-height: 20px;
+}
+
+.kelley-butt{
+	width: 270px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }

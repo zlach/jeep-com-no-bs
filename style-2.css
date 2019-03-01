@@ -6,12 +6,15 @@ body{
 	color: white;
 }
 
+.right-navbar-container{
+	display: none;
+}
+
 .navbar-container{
 	display: flex;
 	justify-content: space-between;
 	height: 70px;
 	align-items: center;
-	background-color: #f8fc88;
 }
 
 .jeep-logo{
@@ -118,7 +121,6 @@ body{
 	font-size: 14px;
 	font-weight: 700;
 	display: inline-block;
-	box-shadow: 0px 0px 1px black;
 }
 
 .vehicles-white{
@@ -144,8 +146,8 @@ body{
 
 .vehicles-header{
 	font-weight: 700;
-	font-size: 1.2em;
-	color: black;
+	font-size: 1.4em;
+	color: #333333;
 	width: 100vw;
 	display: flex;
 	align-items: center;
@@ -179,4 +181,91 @@ body{
 	text-align: center;
 	max-width: 35vw;
 	font-size: .9em;
+}
+
+.promo-container{
+	background-color: #d1d1d1;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.promo-two{
+	display: flex;
+	flex-direction: row;
+}
+
+.promo-two .promo-item{
+	width: 50%;
+}
+
+.promo-two .promo-item:nth-child(1){
+	padding-right: 0px;
+}
+
+.compass-promo-image{
+	height: 250px;
+	background-image: url("compass-promo.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.grandcherokee-promo-image{
+	height: 250px;
+	background-image: url("grandcherokee-promo.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.cherokee-promo-image{
+	height: 250px;
+	background-image: url("cherokee-promo.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.promo-item{
+	padding: 20px 20px 0px 20px;
+}
+
+.promo-one{
+	padding-bottom: 20px;
+}
+
+.promo-black{
+	width: 100%;
+	height: 90px;
+	background-color: black;
+	position: relative;
+	color: white;
+	font-size: .9em;
+}
+
+.promo-white-bold{
+	font-weight: 700;
+}
+
+.promo-gray{
+	background-color: #212121;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	
+	.promo-gray .fas{
+		color: #ffba00;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+
+.promo-gray-bold{
+	font-weight: 700px;
+	font-size: .8em;
+}
+
+.promo-text{
+	padding: 18px 25px;
+	line-height: 20px;
 }
