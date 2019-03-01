@@ -6,42 +6,104 @@ body{
 	color: white;
 }
 
-.navbar-container{
+.big-daddy-nav{
 	display: flex;
 	justify-content: space-between;
+	background-color: #badddd;
+}
+
+.navbar-container{
+	display: flex;
+	/*justify-content: space-between;*/
 	height: 70px;
 	align-items: center;
 	background-color: #badbad;
 }
 
 .jeep-logo{
-	height: 35px;
+	height: 2.5vw;
 	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.down{
+	font-size: 1.2vw;
+	padding-left: .4vw;
+}
+
+.teeny{
+	font-size: .8vw;
+}
+
+.right-navbar-container{
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.not-spanish{
+	font-weight: 700;
+	font-size: 1vw;
+	color: white;
+	padding-left: 30px;
+}
+
+.spanish{
+	border-left: 1px solid white;
+	padding-left: 30px;
+	font-size: 12px;
 }
 
 .navitem{
 	display: inline-block;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 1vw;
 	line-height: 48px;
-	padding-right: 15px;
+	padding-right: .3vw;
+	padding-left: .2vw;
 }
 	.navitem-tools{
 		display: inline-block;
 		font-weight: 700;
-		font-size: 12px;
+		font-size: 1vw;
 		line-height: 48px;
 		padding-right: 15px;
+		padding-left: 10px;
 	}
 	.navitem-capability{
 		display: inline-block;
 		font-weight: 700;
-		font-size: 12px;
+		font-size: 1vw;
 		line-height: 48px;
 		padding-right: 15px;
+		padding-left: 10px;
 	}
 	.navitem-menu{
 		display: none;
+	}
+	.navitem-life{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 1vw;
+		line-height: 48px;
+		padding-right: 15px;
+		padding-left: 10px;
+	}
+	.navitem-owners{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 1vw;
+		line-height: 48px;
+		padding-right: 15px;
+		padding-left: 10px;
+	}
+	.navitem-merchandise{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 1vw;
+		line-height: 48px;
+		padding-right: 15px;
+		padding-left: 10px;
 	}
 
 .carousel-container{

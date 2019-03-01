@@ -19,6 +19,15 @@ body{
 	padding-left: 15px;
 }
 
+.down{
+	font-size: 16px;
+	padding-left: 8px;
+}
+
+.yew{
+	font-size: 14px;
+}
+
 .navitem{
 	display: inline-block;
 	font-weight: 700;
@@ -34,6 +43,15 @@ body{
 		padding-right: 15px;
 	}
 	.navitem-capability{
+		display: none;
+	}
+	.navitem-life{
+		display: none;
+	}
+	.navitem-owners{
+		display: none;
+	}
+	.navitem-merchandise{
 		display: none;
 	}
 
@@ -93,17 +111,25 @@ body{
 	box-shadow: 0px 0px 1px black;
 }
 
-.vehicles-container{
+.vehicles-white{
 	width: 100vw;
-	height: 450px;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: white;
+}
+
+.vehicles-container{
+	width: 95vw;
+	height: 400px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .vehicles-container img{
-	height: 14vw;
+	height: 12vw;
 	margin: auto;
 }
 
@@ -128,7 +154,8 @@ body{
 	font-weight: 700;
 	color: black;
 	text-align: center;
-	max-width: 35vw;
+	max-width: 16vw;
+	font-size: .9em;
 }
 
 .vehicles-msrp{

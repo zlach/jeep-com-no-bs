@@ -18,6 +18,15 @@ body{
 	padding-left: 15px;
 }
 
+.down{
+	font-size: 16px;
+	padding-left: 8px;
+}
+
+.yew{
+	font-size: 14px;
+}
+
 .navitem{
 	display: inline-block;
 	font-weight: 700;
@@ -29,6 +38,15 @@ body{
 		display: none;
 	}
 	.navitem-capability{
+		display: none;
+	}
+	.navitem-life{
+		display: none;
+	}
+	.navitem-owners{
+		display: none;
+	}
+	.navitem-merchandise{
 		display: none;
 	}
 
@@ -88,10 +106,17 @@ body{
 	box-shadow: 0px 0px 1px black;
 }
 
-.vehicles-container{
+.vehicles-white{
 	width: 100vw;
 	height: 625px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: white;
+}
+
+.vehicles-container{
+	width: 90vw;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
