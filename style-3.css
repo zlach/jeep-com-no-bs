@@ -38,17 +38,39 @@ body{
 	margin-right: 30px;
 }
 
+.spanish{
+	display: flex;
+	align-items: center;
+	padding: 3px 0px;
+	border-left: 1px solid white;
+}
+
 .not-spanish{
+	display: flex;
+	align-items: center;
+}
+
+.not-spanish span{
 	font-weight: 700;
 	font-size: 1vw;
 	color: white;
-	padding-left: 30px;
+	padding-left: 10px;
 }
 
-.spanish{
-	border-left: 1px solid white;
-	padding-left: 30px;
+.spanish span{
 	font-size: 12px;
+	padding-left: 10px;
+}
+
+.not-spanish i{
+	color: #7f7f7f;
+	padding-left: 20px;
+}
+
+.spanish i{
+	color: #7f7f7f;
+	padding-left: 20px;
+	font-size: 14px;
 }
 
 .navitem{
