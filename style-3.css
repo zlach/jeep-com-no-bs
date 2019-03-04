@@ -370,7 +370,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 30px 30px;
+	padding: 30px 30px 30px 0px;
 	width: 50vw;
 }
 	.search-header img{
@@ -378,7 +378,7 @@ body{
 	}
 
 .search-header{
-	color: #d1d1d1;
+	color: #bfbfbf;
 	padding: 7px 10px;
 	flex-basis: 90px;
 }
@@ -412,4 +412,76 @@ body{
 .search-bar .fas{
 	color: black;
 	margin-left: 10px;
+}
+
+
+.bottom-menu{
+	height: 500px;
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.bottom-menu-item{
+	padding: 30px 0px 0px 30px;
+	width: 17vw;
+	flex-basis: 33%;
+}
+
+.bottom-menu-item i{
+	display: none;
+}
+
+.menu-header{
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 48px;
+}
+
+.menu-options{
+	color: #bfbfbf;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.socials{
+	display: flex;
+	flex-direction: column;
+}
+
+.social-group{
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.social-group div:nth-child(1){
+	line-height: 48px;
+}
+
+
+.social-group div:nth-child(2){
+	line-height: 30px
+}
+
+.social-group i{
+	font-size: 2.1em;
+	letter-spacing: .3em;
+}
+
+.social-group img{
+	height: 20px;
+}
+
+.social-group{
+	padding: 30px 0px 0px 30px;
+	width: 17vw;
+}
+
+.thing{
+	border-bottom: 1px solid #333333;
+	width: 90vw;
+	margin: 10px auto 50px auto;
 }

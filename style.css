@@ -314,7 +314,7 @@ body{
 	}
 
 .search-header{
-	color: #d1d1d1;
+	color: #bfbfbf;
 	padding: 15px 10px;
 	flex-basis: 40%;
 }
@@ -369,13 +369,19 @@ body{
 	align-items: center;
 }
 
+.menu-options{
+	display: none;
+}
+
 .socials{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	align-self: flex-start;
 }
 
 .social-group{
 	display: flex;
+	flex-direction: column;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 48px;
@@ -383,16 +389,15 @@ body{
 
 .social-group i{
 	font-size: 2.1em;
-	letter-spacing: .2em;
+	letter-spacing: .3em;
 }
 
 .social-group img{
 	height: 20px;
 }
 
-.social-group div{
-	flex: 1;
-	padding-left: 5vw;
+.social-group{
+	padding: 7vw 5vw;
 }
 
 .thing{
