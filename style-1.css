@@ -181,21 +181,21 @@ body{
 }
 
 .compass-promo-image{
-	height: 30vw;
+	height: 32vw;
 	background-image: url("compass-promo.jpg");
 	background-position: -10%;
 	background-size: cover;
 }
 
 .grandcherokee-promo-image{
-	height: 30vw;
+	height: 32vw;
 	background-image: url("grandcherokee-promo.jpg");
 	background-position: -10%;
 	background-size: cover;
 }
 
 .cherokee-promo-image{
-	height: 30vw;
+	height: 32vw;
 	background-image: url("cherokee-promo.jpg");
 	background-position: -10%;
 	background-size: cover;
@@ -205,7 +205,7 @@ body{
 	padding: 20px 20px 0px 20px;
 }
 
-.promo-one{
+.three{
 	padding-bottom: 20px;
 }
 

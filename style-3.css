@@ -224,3 +224,82 @@ body{
 	max-width: 35vw;
 	font-size: .9em;
 }
+
+.promo-container{
+	background-color: #d1d1d1;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.compass-promo-image{
+	height: 200px;
+	background-image: url("compass-promo.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.grandcherokee-promo-image{
+	height: 200px;
+	background-image: url("grandcherokee-promo.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cherokee-promo-image{
+	height: 200px;
+	background-image: url("cherokee-promo.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.promo-item{
+	padding: 20px 20px 20px 20px;
+	flex: 1;
+}
+
+.two{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.promo-black{
+	width: 100%;
+	background-color: black;
+	position: relative;
+	color: white;
+	font-size: .9em;
+	height: 100px;
+}
+
+.promo-white-bold{
+	font-weight: 700;
+}
+
+.promo-gray{
+	background-color: #212121;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	
+	.promo-gray .fas{
+		color: #ffba00;
+		margin-right: 10px;
+		margin-left: 25px;
+	}
+
+.promo-gray-bold{
+	font-weight: 700px;
+	font-size: .8em;
+}
+
+.promo-text{
+	padding: 18px 25px;
+	line-height: 20px;
+}
