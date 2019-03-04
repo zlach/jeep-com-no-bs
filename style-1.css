@@ -256,12 +256,16 @@ body{
 	align-items: flex-start;
 }
 
-	.random-gray div{
+	.random-gray .look-look{
 		font-size: .75em;
 		font-weight: 700;
 		color: black;
 		width: 186px;
 		margin-bottom: 15px;
+	}
+
+	.random-gray img{
+		display: none;
 	}
 
 .kelley{
@@ -295,4 +299,57 @@ body{
 	width: 270px;
 	margin-top: 20px;
 	margin-bottom: 30px;
+}
+
+.search-section{
+	background-color: #212121;
+	height: 275px;
+	display: flex;
+	flex-direction: column;
+}
+
+.search-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 30px;
+}
+	.search-header img{
+		height: 5vw;
+	}
+
+.search-header{
+	color: #d1d1d1;
+	padding: 15px 10px;
+	flex-basis: 33%;
+}
+
+.search-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	border-radius: 4px 4px 4px 4px;
+	height: 40px;
+	width: 80vw;
+	box-shadow: 0px 0px 1px black;
+	margin-left: 30px;
+}
+
+.search-bar-button{
+	background-color: #ffba00;
+	border-radius: 0px 4px 4px 0px;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-weight: 700;
+	font-size: .8em;
+	text-decoration: none;
+}
+
+.search-bar .fas{
+	color: black;
+	margin-left: 10px;
 }
