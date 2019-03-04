@@ -430,3 +430,7 @@ body{
 .foot{
 	margin-bottom: 60px;
 }
+
+.done-image{
+	display: none;
+}

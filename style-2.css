@@ -448,3 +448,39 @@ body{
 	width: 90vw;
 	margin: 10px auto 50px auto;
 }
+
+.foot-car-bar{
+	color: #bfbfbf;
+	font-size: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 10vw;
+}
+
+.foot-car-bar div{
+	padding-right: .71429rem;
+    line-height: 25px;
+}
+
+.foot-p{
+	color: #bfbfbf;
+	font-size: 10px;
+	width: 90vw;
+	margin: 10px auto 10px auto;
+}
+
+.foot{
+	margin-bottom: 60px;
+}
+
+.done-image{
+	margin-left: 10vw;
+}
+
+.fca-image{
+	height: 30px;
+}
+
+.chrysler-image{
+	height: 30px;
+}
